@@ -7,7 +7,7 @@ services:
       - PORT=9175
       - STORE_PATH=/data/kronos
     volumes:
-      - kronos-data:/data/kronos
+      - ./data:/data
 
 volumes:
   kronos-data:
